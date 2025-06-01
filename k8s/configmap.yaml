@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: user-config
 data:
-  MONGO_URI: mongodb://mongo:27017/userdb
-  JWT_SECRET: your_jwt_secret
+  MONGO_URI: mongodb://mongo:27017/ecommerceshop
+

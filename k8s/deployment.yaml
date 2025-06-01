@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: your-dockerhub-username/user-service:latest
+          image: quickops.dc2.cloudapp.xpressazure.com:5000/user-service:1
           ports:
             - containerPort: 5000
           resources:
